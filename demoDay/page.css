@@ -1,0 +1,63 @@
+body{
+    background-color: #6D7275;
+    font-family: 'Aldrich', sans-serif;
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.top > h1{
+    color: white;
+    font-size: 40px;
+}
+ul{
+    margin-left: 400px;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    word-spacing: 60px;
+    top: 10px;
+}
+li{
+display: inline-block;
+}
+li a{
+    float: right;
+    text-decoration: none;
+    color: #05386b;
+    font-size: 30px;
+}
+.catagories{
+    border:solid;
+    border-radius: 5px;
+    border-color: white;
+    height: 200px;
+    width: 200px;
+    display: grid;
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    margin-top: 80px;
+    color: whitesmoke;
+    opacity: 1;
+}
+#health{
+    background-image: url(fitness.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+#Apperal{
+    background-image: url(apperal.jpg);
+    background-size: cover;
+
+}
+#Tech{
+    background-image: url(tech.jpg);
+    background-size: cover;
+}
+#App{
+    background-image: url(games.jpg);
+    background-size: cover;
+}
