@@ -1,0 +1,12 @@
+body{
+    background-color: darkorange
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+
+h1>a{
+    text-decoration: none;
+    color: black;
+}

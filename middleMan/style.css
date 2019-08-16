@@ -1,0 +1,49 @@
+body{
+    background-color: #B3B6B7;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVv3dqkUwReQdAQ4JnNruwvBYxQ8U4pI7ukBuMSbDdrNBWGDxlSw"); */
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+}
+
+#text{
+    font-family: 'Arvo', serif;
+}
+
+.circle {
+    background: url(https://d13yacurqjgara.cloudfront.net/users/212457/screenshots/2212523/yo.jpg) #000;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition: all .3s ease-in-out;
+    background-color: rgb(16, 33, 110);
+  }
+  
+  .circle:hover {
+    border-radius:0;  
+    cursor: pointer;
+    background-color: #449bc3;
+    
+  }
+  
+  .text {
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+    padding-top: 0px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .circle:hover .text {
+    padding-top: 40px;
+    opacity: 1;
+    
+  }
+
+ 
+
+

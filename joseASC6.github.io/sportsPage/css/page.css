@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'railwayregular';
+    src: url('railway-webfont.woff2') format('woff2'),
+         url('railway-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: "railwayregular";
+    margin: 0;
+    color: white;
+    background-color: #2b5d99;
+}
+.top{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  word-spacing: 60px;
+  margin:0px;
+  top: 10px;
+}
+li{
+ display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: #225aa7;
+    text-align: center;
+    font-size: 40px;
+}
+#img1{
+    background-image: url(Sports/soccer.jpg);
+    height: 500px;
+}
+#img2{
+    background-image: url(Sports/tackEdit2.jpg);
+    height: 500px;
+}
+#img3{
+    background-image: url(Sports/wrestling2.jpg);
+    height: 500px;
+}
+.img{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: .83em;
+    /* border-bottom: 20px; */
+    border-color: white;
+}
+.text{
+    margin-top: 60px;
+}
+h2{
+    
+    color: #225aa7;
+    background-color: white;
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: .83em;
+    border-bottom: 20px;
+    border-color: white;
+}
+footer{
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    word-spacing: 50px;
+    text-align: center;
+}
+footer > p{
+    font-size: 25px;
+    color: #014FBC;
+    display: inline-block;
+    
+}

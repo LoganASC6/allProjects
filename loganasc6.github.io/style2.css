@@ -1,0 +1,75 @@
+img{
+    height: 15em;
+    width: 10em;
+}
+
+#top_2{
+    height: 15em;
+    width: 10em;
+}
+
+#top_3 {
+    height: 15em;
+    width: 10em;
+}
+
+#top_4{
+    height:15em;
+    width:10em;
+}
+
+#second_1{
+    height:15em;
+    width:10em;
+}
+
+#second_2{
+    height:15em;
+    width:10em;
+}
+
+#second_3{
+    height:15em;
+    width:10em;
+}
+
+#second_4{
+    height:15em;
+    width:10em;
+}
+
+
+
+.bottom2{
+    height:15em;
+    width:25em;
+}
+.bottom2:hover{
+    -ms-transform: scale(1.8); 
+    -webkit-transform: scale(1.8); 
+    transform: scale(1.8);
+}
+
+.pg2:hover{
+    -ms-transform: scale(1.8); 
+    -webkit-transform: scale(1.8); 
+    transform: scale(1.8);
+}
+
+
+
+h2 {
+    width: fit-content;
+    font-family:   'Raleway', sans-serif;
+ }
+ h2 >a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ h2:hover {
+    background-color: lightgrey;
+    background-size: 20%;
+    cursor: grabbing;
+  }
+

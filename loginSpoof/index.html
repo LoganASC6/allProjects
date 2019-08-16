@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Login Page</title>
+    <link rel= "stylesheet" type = "text/css" href="style.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAdtC8mXrWMzl0EVS04HJvZBr5aBlsES30",
+    authDomain: "logan-spoof2.firebaseapp.com",
+    databaseURL: "https://logan-spoof2.firebaseio.com",
+    projectId: "logan-spoof2",
+    storageBucket: "",
+    messagingSenderId: "394332934898",
+    appId: "1:394332934898:web:8638ee2ed9de9545"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+    <div id ="frm">
+        <form action="process.php" method ="POST">
+            <p>
+                <label>Username:</label>
+                <input  type = "text" id="user" name="user" />
+            </p>
+            <p>
+                <label>Password:</label>
+                <input  type = "password" id="pass" name="pass" />
+            </p>
+            <p>
+               <input  type = "submit" id="btn" values="Login" />
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>

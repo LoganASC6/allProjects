@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'railwayregular';
+    src: url('railway-webfont.woff2') format('woff2'),
+         url('railway-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin: 0;
+    background-color: #014FBC;
+    color: white;
+    font-family: "railwayregular";
+}
+.top{
+    text-align: center;
+    background-image: url("header.jpg");
+    background-repeat:no-repeat;
+    /* background-size: 1283.85px 722px; */
+    background-size: 100% auto;
+    height: 722px;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* #jose{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top:90%;
+} */
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    float: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 5.5%;
+    word-spacing: 60px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    
+} 
+li a{
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.body{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: solid;
+    border-color: white;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    text-align: left;
+    font-size: 33px;
+}
+h3{
+    text-align: left;
+    font-size: 27px;
+}
+.left{
+    text-align: left;
+    font-size: 25px;
+}
+.bullets{
+    display: list-item;
+    text-align: left;
+    font-size: 27px;
+}
+#PDF{
+    margin-right: 1100px;
+    margin-left: 100px;
+    border-color: white;
+    background-color: white;
+    color: #014FBC;
+}
+footer{
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    word-spacing: 50px;
+    text-align: center;
+}
+footer > p{
+    
+    color: #014FBC;
+    display: inline-block;
+    
+}
